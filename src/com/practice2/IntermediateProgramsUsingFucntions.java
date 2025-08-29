@@ -6,13 +6,36 @@ public class IntermediateProgramsUsingFucntions {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-//        dipreciation();
+//        cgpa();
+//        depreciation();
 //        power();
 //        discount();
 //        avgOfNum();
     }
 
-    static void dipreciation(){
+    static void cgpa(){
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter total subjects: ");
+        int sub = sc.nextInt();
+        float tc = 0, tg = 0;
+
+        for(int i = 1; i <= sub; i++){
+            System.out.print("Enter the credit of the " + i + " subject: ");
+            int credit = sc.nextInt();
+            System.out.print("Enter the points of the " + i + " subject: ");
+            int point = sc.nextInt();
+            int gradepoint = credit * point;
+            tc = tc + credit;
+            tg = tg + gradepoint;
+        }
+        System.out.println("Total credits appeared is: " + tc);
+        System.out.println("Total points secured is: " + tg);
+        float cgpa = tg/tc;
+        System.out.printf("CGPA = %.2f", cgpa);
+    }
+
+    static void depreciation(){
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the initial cost: ");

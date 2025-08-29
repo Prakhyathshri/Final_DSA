@@ -4,13 +4,22 @@ import java.util.Scanner;
 
 public class Sum {
     public static void main(String[] args) {
-        int ans = sum2();
-        System.out.println(ans);
-        sum();
-        sum();
-        sum();
-        //I can calling the fucntion how much
-        // ever times i need to repeat any work
+        int answer = sum3(5, 2);
+        System.out.println(answer);
+//        int ans = sum2();
+//        System.out.println(ans);
+//        sum();
+//        sum();
+//        sum();
+        //I can calling the function how much
+        // ever times I need to repeat any work
+    }
+
+    //pass the value of numbers when you
+    // are calling the method in main
+    static int sum3(int a, int b){
+        int sum = a + b;
+        return sum;
     }
 
     //return the value
@@ -43,7 +52,7 @@ public class Sum {
     }
 
         /*
-         access_modifier return_type name () {
+         access_modifier return_type name (arguments) {
             //body
             return statement;
          }
