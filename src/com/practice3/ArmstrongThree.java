@@ -13,13 +13,13 @@ public class ArmstrongThree {
 
         //To check armstrong for all three digit number
         for(int i = 100; i <= 1000; i++){
-            if(armstrong(i)){
+            if(armstrongn(i)){
                 System.out.println(i);
             }
         }
     }
 
-    static boolean armstrong(int n) {
+    static boolean armstrongn(int n) {
         int original = n;
 //        int rem = 0;
         int sum = 0;
