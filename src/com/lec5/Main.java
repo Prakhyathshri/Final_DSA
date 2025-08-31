@@ -24,5 +24,11 @@ public class Main {
         int[] roll = new int[5];
         //or
         int [] roll2 = {22,33,44,55,66};
+
+        int[] ros; //Here is the array is being defined
+        ros = new int[5]; //Here the actual memory allocation is happening
+        System.out.println(ros[0]); //This will print 0
+        //All the empty int arrays will have 0 by default
+        // STRING will have NULL in it
     }
 }
