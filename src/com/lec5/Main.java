@@ -22,6 +22,12 @@ public class Main {
         //SYNTAX
         //datatype[] var_name = new datatype[size];
         int[] roll = new int[5];
+
+        int col[] = new int[3];
+        //This is the c++ way of doing it
+        //But above is the best way to do #CLEAN CODE
+
+
         //or
         int [] roll2 = {22,33,44,55,66};
 
