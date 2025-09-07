@@ -18,6 +18,8 @@ public class Basics2D {
         System.out.println(Arrays.toString(min(arr)));
     }
 
+    //We can use enhanced for Loop also for these three functions.
+
     static int[] search(int[][] arr, int target) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
@@ -43,6 +45,28 @@ public class Basics2D {
         }
         return new int[]{maxvalue, row, col};
     }
+
+    //Using enhanced for loop
+    static int[] max2(int[][] arr) {
+        int maxValue = Integer.MIN_VALUE;
+        int row = -1, col = -1;
+        int i = 0;
+
+        for (int[] rowArray : arr) { // iterates over each row
+            int j = 0;
+            for (int num : rowArray) { // iterates over each element in the row
+                if (num > maxValue) {
+                    maxValue = num;
+                    row = i;
+                    col = j;
+                }
+                j++;
+            }
+            i++;
+        }
+        return new int[]{maxValue, row, col};
+    }
+
 
     static int[] min(int[][] arr) {
         int minvalue = Integer.MAX_VALUE;
