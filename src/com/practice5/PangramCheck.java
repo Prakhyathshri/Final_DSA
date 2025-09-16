@@ -3,30 +3,29 @@ package com.practice5;
 //https://leetcode.com/problems/check-if-the-sentence-is-pangram/description/
 public class PangramCheck {
     public static void main(String[] args) {
-        String sentence = "thequickbrownfoxjumpsoverthelazydog";
+        String sentence = "leetcodeabcdefghijklmnopqrstuvwxyz";
         System.out.println(checkIfPangram(sentence));
 
     }
 
     static boolean checkIfPangram(String sentence) {
-        boolean isPan = false;
         if (sentence.length() < 26){
-            return isPan;
+            return false;
         } else {
-            int count = 0;
-            for (int j = 0; j < sentence.length(); j++) {
-                for (int i = 97; i <= 122; i++) {
-                    if (sentence.charAt(j) == i) {
-                        count++;
-                    } else {
-                        return isPan;
+            boolean[] check = new boolean[26];
+            for (int i = 0; i < sentence.length(); i++){
+                char c = sentence.charAt(i);
+                    if (c >= 'a' && c <= 'z'){
+                        check[c - 'a'] = true;
                     }
+
+            }
+            for (int i = 0; i < check.length; i++){
+                if (!check[i]){
+                    return false;
                 }
             }
-            if (count == 26){
-                isPan = true;
-            }
+            return true;
         }
-        return isPan;
     }
 }
