@@ -24,9 +24,15 @@ public class CeilingAlphabet {
             } else {
                 start = mid + 1;
             }
+            //This will not print the mid, it will directly point to the next element
+            //Even if the element is equal, and them at the end
+            //start > end, it will return the start, that will be the next smallest element
         }
 
         return letters[start];
+
+        //This is a different approach for wrap around, i have handled it using
+        //if statement in the starting itself
 //        return letters[start % letters.length];
     }
 }

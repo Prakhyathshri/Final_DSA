@@ -21,7 +21,12 @@ public class FloorOfNumber {
             } else {
                 start = mid + 1;
             }
-
+        /*
+* Binary search will narrow down.
+* When the loop ends, start will be just past the target’s possible location,
+* and end will be pointing at the largest element smaller than or equal to target.
+* That’s why returning end gives the correct floor.
+         */
         }
         return end;
     }

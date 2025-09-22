@@ -34,6 +34,8 @@ public class PositionSortedArray {
                 } else {
                     start = mid + 1;
                 }
+//First index search → keep forcing binary search left after finding match.
+//Last index search → keep forcing binary search right after finding match
             } else if (target < nums[mid]){
                 end = mid - 1;
             } else {

@@ -18,14 +18,18 @@ public class CeilingNumber {
 
             if (arr[mid] == target){
                 return mid;
-            } else if (arr[mid] > target){
+            } else if (target < arr[mid]){
                 end = mid - 1;
             } else {
                 start = mid + 1;
             }
 
         }
-        return start;
+        return arr[start];
+
+        //When the loop ends, start will point to the
+        // smallest index where the element is >= target.
+        //This is why you return start.
     }
 
 

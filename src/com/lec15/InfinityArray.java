@@ -13,11 +13,22 @@ public class InfinityArray {
         int end = 1;
 
         while (target > nums[end]){
+            //so this condition will make sure the target > start and < end
+            //else it will increase the array size by * 2
             int temp = end + 1;
+            /*
+SO this doubling the size is done to maintain the efficiency
+If you increase end linearly (e.g., end = end + 1 each time),
+it could take forever if the target is very far away.
+By doubling the window size (* 2), you expand the search exponentially.
+This means you’ll reach the region containing the target in O(log N)
+expansions instead of O(N).
+             */
             end = end + (end - start + 1) * 2;
             start = temp;
         }
         return binarysearch(nums, target, start, end);
+        //now this will directly go and search the element in the range
     }
 
     static int binarysearch(int[] nums, int target, int start, int end){
