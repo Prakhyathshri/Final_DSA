@@ -3,7 +3,7 @@ package com.lec15;
 //https://leetcode.com/problems/search-in-rotated-sorted-array/description/
 public class SearchInRotatedSortedArray {
     public static void main(String[] args) {
-        int[] nums = {1};
+        int[] nums = {7,8,1,2,5,6};
         int target = 1;
         System.out.println(search(nums, target));
     }
@@ -33,18 +33,18 @@ public class SearchInRotatedSortedArray {
         return -1;
     }
 
-    static int findPivot(int[] nums){
+    static int findPivot(int[] nums) {
         int start = 0, end = nums.length - 1;
-        while (start <= end){
+        while (start <= end) {
             int mid = start + (end - start) / 2;
 
-            if (mid < end && nums[mid] > nums[mid + 1]){
+            if (mid < end && nums[mid] > nums[mid + 1]) {
                 return mid;
             }
-            if (mid > start && nums[mid] < nums[mid -1]){
+            if (mid > start && nums[mid] < nums[mid - 1]) {
                 return mid - 1;
             }
-            if (nums[mid] <= nums[start]){
+            if (nums[mid] <= nums[start]) {
                 end = mid - 1;
             } else {
                 start = mid + 1;
