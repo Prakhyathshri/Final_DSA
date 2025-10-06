@@ -1,9 +1,15 @@
 package com.practice06;
+//This program works for all cases
+//base + power +
+//base + power -
+//base - power -
+//base + power -
+//with odd and even numbers
 
 public class Power {
     public static void main(String[] args) {
-        double x = 2.00000;
-        int n = -2;
+        double x = -2.00000;
+        int n = -3;
         System.out.println(myPow(x, n));
     }
 
