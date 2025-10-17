@@ -5,8 +5,6 @@ import java.util.Arrays;
 public class UniqueIntSum {
     public static void main(String[] args) {
         int n = 3;
-//        Output: [-7,-1,1,3,4]
-//        Explanation: These arrays also are accepted [-5,-1,1,2,3] , [-3,-1,2,-2,4].
         System.out.println(Arrays.toString(sumZero(n)));
     }
 
