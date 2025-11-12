@@ -12,6 +12,8 @@ public class UniqueCheck {
         for (int n : arr){
             unique ^= n;
 //            unique = unique ^ n;
+//            Here all the elements of the array will be converted into
+//            binary and then the XOR operation will be performed on it
         }
 
         return unique;
