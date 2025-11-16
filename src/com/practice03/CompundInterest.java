@@ -24,7 +24,9 @@ public class CompundInterest {
             case 2 -> 2;
             case 3 -> 4;
             case 4 -> 12;
-            case 5 -> 365;
+            case 5 -> {
+                yield 365;
+            }
             default -> 1;
         };
         double result = 1;
