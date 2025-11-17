@@ -6,8 +6,10 @@ public class BinarySearchSquareRoot{
         int p = 3;
 //        System.out.println(findSRoot(n));
         System.out.println(sqrt(n, p));
+        System.out.printf("%.3f", sqrt(n, p));
     }
 
+    // Time - O(log(N))
     // for not perfect square
     static double sqrt(int n, int p){
         int s = 0, e = n;
