@@ -2,34 +2,119 @@ List of unsolved questions module wise EASY questions
 MEDIUM HARD I have not done of any module
 
 practice 05
-18 - Add to array form of Int (Tried a lot, need to understand)
-19 - max population
-20 -
-24 - Max subArray - DP
-25 -
-28 -
+Add to Array-Form of Integer
+Maximum Population Year
+Determine Whether Matrix Can Be Obtained By Rotation
+Maximum Subarray
+Reshape the Matrix
+Minimum Cost to Move Chips to The Same Position
 
 practice 06
 Arranging Coins(Easy)
 Two Sum II - Input array is sorted
 Kth Missing Positive Number
 Count Negative Numbers in a Sorted Matrix
-Intersection of Two Arrays - Many topics needed
-Intersection of Two Arrays II - Many topics needed
-Check If N and Its Double Exist - Many topics needed
-Fair Candy Swap - Many topics needed
+Intersection of Two Arrays
+Intersection of Two Arrays II
+Check If N and Its Double Exist
+Fair Candy Swap
 Special Array With X Elements Greater Than or Equal X
 
-practice 07 (Done / Solved, Rest all Unsolved)
-E1. Merge Sorted Array
+practice 07
+Majority Element
+Contains Duplicate
+Intersection of Two Arrays
+Intersection of Two Arrays II
+Third Maximum Number
+Assign Cookies
+Array Partition I
+Maximum Product of Three Numbers
+Sort Array By Parity
+Sort Array By Parity II
+Largest Perimeter Triangle
+Squares of a Sorted Array
+Matrix Cells in Distance Order
+Height Checker
+Relative Sort Array
+Minimum Absolute Difference
+Rank Transform of an Array
+Sort Integers by The Number of 1 Bits
+How Many Numbers Are Smaller Than the Current Number
+Maximum Product of Two Elements in an Array
+Average Salary Excluding the Minimum and Maximum Salary
+Make Two Arrays Equal by Reversing Sub-arrays
+Can Make Arithmetic Progression From Sequence
+Sort Array by Increasing Frequency
+Special Array With X Elements Greater Than or Equal X
+Find all numbers disappeared in an array
+Set Mismatch
+2Sum
 
 practice 08
-EASY
 Excel Sheet Column Title
 Longest Common Prefix
 Maximum Repeating Substring
 Check if Binary String Has at Most One Segment of Ones
-Merge Strings Alternately
 Roman to Integer - HASH TABLE
 Valid Parentheses
+
+practice10
+Sum Triangle from Array GFG
+Maximum and Minimum value in an array GFG
+Binary Search using recursion leetcode
+First Uppercase Letter in a String GFG
+Reverse String leetcode
+Print 1 To N Without Loop GFG
+Fibonacci Number leetcode
+Special Fibonacci CodeChef
+Length of string using Recursion GFG
+Geek-onacci Number GFG
+Recursive Bubble Sort GFG
+Recursive Insertion Sort GFG
+Sum of digit of a number using Recursion GFG
+Product of two numbers using Recursion GFG
+Check Prime or not GFG
+Sum of Natural numbers using Recursion GFG
+Power of Two leetcode
+Power of Three leetcode
+Power of Four leetcode
+Write a recursive function for given n and a to determine x:
+Write a recursive function that returns the factorial of a number. HackerRank
+Write a recursive function to check whether an array is sorted or not. GFG
+Number of Steps to Reduce a Number to Zero. leetcode
+Check for balanced paranthesis using recursion without stack. GFG
+Remove consecutive duplicate characters from a string. GFG
+Print all possible palindromic partitions of a string. GFG
+Power Set of permutations of a string in Lexicographic order. GFG
+
+practice11
+Add Binary
+Single Number
+Reverse Bits
+Number of 1 Bits
+Counting Bits
+Binary Watch
+Hamming Distance
+Number Complement
+Set Mismatch
+Binary Number with Alternating Bits
+Prime Number of Set Bits in Binary Representation
+Binary Gap
+Number of Steps to Reduce a Number to Zero
+Sort Integers by The Number of 1 Bits
+XOR Operation in an Array
+Count the Number of Consistent Strings
+Decode XORed Array
+Sum of All Subset XOR Totals
+Longest Nice Substring
+
+practice 12
+Roman to Integer.
+Happy Number.
+Power of Four
+Excel Sheet Column Title
+Maximum Product of Three Numbers
+Climbing Stairs
+Add Binary
+Power of Two
 
