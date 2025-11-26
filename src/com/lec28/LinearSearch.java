@@ -14,6 +14,8 @@ public class LinearSearch {
         System.out.println(list);
 
         System.out.println(linearSearchAllIndex2(arr, target, 0, new ArrayList<>()));
+
+        System.out.println(linearSearchAllIndex3(arr, target, 0));
     }
 
     static boolean linearSearch(int[] arr, int target, int index){
@@ -65,5 +67,23 @@ public class LinearSearch {
             list.add(index);
         }
         return linearSearchAllIndex2(arr, target, index + 1, list);
+    }
+
+    static ArrayList<Integer> linearSearchAllIndex3(int[] arr, int target, int index){
+
+        ArrayList<Integer> list = new ArrayList<>();
+
+        if (index == arr.length){
+            return list;
+        }
+
+        // This will contain answer for that function call only
+        if (arr[index] == target){
+            list.add(index);
+        }
+
+        ArrayList<Integer> ansFromBelowCalls = linearSearchAllIndex3(arr, target, index + 1);
+        list.addAll(ansFromBelowCalls);
+        return list;
     }
 }
