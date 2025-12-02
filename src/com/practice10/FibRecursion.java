@@ -1,5 +1,4 @@
 package com.practice10;
-// https://leetcode.com/problems/fibonacci-number/description/
 
 public class FibRecursion {
     public static void main(String[] args) {
