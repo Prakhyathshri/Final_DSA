@@ -1,0 +1,20 @@
+package com.practice10;
+// https://leetcode.com/problems/power-of-two/description/
+
+public class PowerOfTwoRecursion {
+    public static void main(String[] args) {
+        int n = 3;
+        System.out.println(isPowerOfTwo(n));
+    }
+
+    static boolean isPowerOfTwo(int n){
+        if (n == 1){
+            return true;
+        }
+
+        if (n <= 0 || n % 2 != 0){
+            return false;
+        }
+        return isPowerOfTwo(n/2);
+    }
+}

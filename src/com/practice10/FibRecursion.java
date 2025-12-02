@@ -1,4 +1,4 @@
-package com.lec30;
+package com.practice10;
 // https://leetcode.com/problems/fibonacci-number/description/
 
 public class FibRecursion {
