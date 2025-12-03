@@ -2,6 +2,7 @@ package com.lec31;
 
 import java.util.Arrays;
 
+// Quick sort understanding is left need to learn
 public class QuickSort {
     public static void main(String[] args) {
         int[] arr = {5,4,3,2,1};

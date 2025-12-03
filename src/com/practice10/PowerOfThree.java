@@ -1,4 +1,5 @@
 package com.practice10;
+// https://leetcode.com/problems/power-of-three/description/
 
 public class PowerOfThree {
     public static void main(String[] args) {

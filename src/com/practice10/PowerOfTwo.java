@@ -1,5 +1,6 @@
 package com.practice10;
 
+//https://leetcode.com/problems/power-of-two/description/
 public class PowerOfTwo {
     public static void main(String[] args) {
         System.out.println(isPowerOfTwo(3));
