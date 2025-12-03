@@ -1,4 +1,5 @@
 package com.practice10;
+// https://leetcode.com/problems/power-of-four/submissions/1846173730/
 
 public class PowerOfFour {
     public static void main(String[] args) {
