@@ -8,6 +8,36 @@ public class RecursionRemoveA {
         System.out.println(removeAR("", str));
 
         System.out.println(removeA2R(str));
+
+        System.out.println(skipApple("aapplefg"));
+
+        System.out.println(skipApp("appapplefg"));
+
+    }
+
+    // This will keep the APP which is inside apple, and remove app in other places
+    static String skipApp(String up){
+        if (up.isEmpty()){
+            return "";
+        }
+
+        if (!up.startsWith("apple") && up.startsWith("app")){
+            return skipApp(up.substring(3));
+        } else {
+            return up.charAt(0) + skipApp(up.substring(1));
+        }
+    }
+
+    static String skipApple(String up){
+        if (up.isEmpty()){
+            return "";
+        }
+
+        if (up.startsWith("apple")){
+            return skipApple(up.substring(5));
+        } else {
+            return up.charAt(0) + skipApple(up.substring(1));
+        }
     }
 
     static String removeA2R(String up){
