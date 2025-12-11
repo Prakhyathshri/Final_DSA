@@ -10,7 +10,6 @@ Reshape the Matrix
 Minimum Cost to Move Chips to The Same Position
 
 practice 06
-Arranging Coins(Easy)
 Two Sum II - Input array is sorted
 Kth Missing Positive Number
 Count Negative Numbers in a Sorted Matrix
@@ -24,9 +23,7 @@ Intersection of Two Arrays - HASHMAPS
 Intersection of Two Arrays II - HASHMAPS
 Assign Cookies - UNSOLVED
 Array Partition I - LEETCODE 404
-
-Matrix Cells in Distance Order
-
+Matrix Cells in Distance Order - MATRIX
 Relative Sort Array
 Minimum Absolute Difference
 Rank Transform of an Array
@@ -36,7 +33,7 @@ Maximum Product of Two Elements in an Array
 Average Salary Excluding the Minimum and Maximum Salary
 Make Two Arrays Equal by Reversing Sub-arrays
 Can Make Arithmetic Progression From Sequence
-Sort Array by Increasing Frequency
+Sort Array by Increasing Frequency - HASH TABLE
 
 practice 08
 Excel Sheet Column Title
